@@ -1,0 +1,10 @@
+AllCops:
+  Exclude:
+    - Gemfile
+    - Rakefile
+    - app_health_status.gemspec
+    - 'bin/*'
+    - 'spec/**/*'
+
+Metrics/LineLength:
+  Max: 95
