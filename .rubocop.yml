@@ -5,6 +5,7 @@ AllCops:
     - app_health_status.gemspec
     - 'bin/*'
     - 'spec/**/*'
+    - 'vendor/**/*'
 
 Metrics/LineLength:
   Max: 95

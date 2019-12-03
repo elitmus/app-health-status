@@ -1,8 +1,18 @@
 # AppHealthStatus
-Short description and motivation.
+
+This Simple Gem provides an configurable endpoint to check your rails app health status.
 
 ## Usage
-How to use my plugin.
+The default endpoint is set to `app-health-status`.
+
+You configure the endpoint in the following way:
+
+```rb
+# config/intializers/app_health_status.rb
+AppHealthStatus.configure do |config|
+  config.path = 'some-random-path'
+end
+```
 
 ## Installation
 Add this line to your application's Gemfile:
@@ -20,9 +30,6 @@ Or install it yourself as:
 ```bash
 $ gem install app_health_status
 ```
-
-## Contributing
-Contribution directions go here.
 
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
