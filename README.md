@@ -1,5 +1,7 @@
 # AppHealthStatus
 
+[![Build Status](https://travis-ci.org/elitmus/app-health-status.svg?branch=master)](https://travis-ci.org/elitmus/app-health-status)
+
 This Simple Middleware Gem provides an configurable endpoint to check your rails app health status.
 
 When your app will be requested with the endpoint specified in this gem, the middleware will interfere with the request and return status 200.
