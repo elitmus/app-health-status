@@ -8,4 +8,4 @@ AllCops:
     - 'vendor/**/*'
 
 Metrics/LineLength:
-  Max: 95
+  Max: 120

@@ -1,0 +1,6 @@
+example_id                                    | status | run_time        |
+--------------------------------------------- | ------ | --------------- |
+./spec/app_health_status_routing_spec.rb[1:1] | passed | 0.03629 seconds |
+./spec/app_health_status_routing_spec.rb[1:2] | passed | 0.00012 seconds |
+./spec/app_health_status_spec.rb[1:1]         | passed | 0.00053 seconds |
+./spec/app_health_status_spec.rb[1:2]         | passed | 0.00006 seconds |
