@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    app_health_status (0.2.1)
+    app_health_status (0.2.2)
       rack
 
 GEM
@@ -50,4 +50,4 @@ DEPENDENCIES
   rubocop
 
 BUNDLED WITH
-   2.0.2
+   2.3.14
